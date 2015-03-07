@@ -13,7 +13,7 @@ namespace WeatherDataWPFApplication {
     public partial class App : Application {
 
         public static void Start() {
-            WeatherData weather = WeatherApiClient.GetWeatherForecast();
+            WeatherData weather = WeatherApiClient.GetWeatherForecast("http://api.openweathermap.org/data/2.5/forecast/daily?q=Dhaka&mode=json&units=metric&cnt=1");
             
         }
 

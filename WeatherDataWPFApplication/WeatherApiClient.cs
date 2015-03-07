@@ -10,8 +10,8 @@ using System.Net;
 namespace WeatherDataWPFApplication {
     class WeatherApiClient {
 
-        public static WeatherData GetWeatherForecast() {
-            var url = "http://api.openweathermap.org/data/2.5/forecast/daily?q=Dhaka&mode=json&units=metric&cnt=1";
+        public static WeatherData GetWeatherForecast(string weatherApi) {
+            var url = weatherApi;
             string content = new WebClient().DownloadString(url);
 
 

@@ -14,6 +14,9 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WeatherDataWPFApplication {
+
+    
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -23,6 +26,11 @@ namespace WeatherDataWPFApplication {
         }
 
         public void Start() {
+            WeatherData today = WeatherApiClient.GetWeatherForecast("http://api.openweathermap.org/data/2.5/forecast/daily?q=Dhaka&mode=json&units=metric&cnt=1");
+        }
+
+        public void SetTodayDate() {
+            DateTime today = DateTime.Today;
             
         }
     }
