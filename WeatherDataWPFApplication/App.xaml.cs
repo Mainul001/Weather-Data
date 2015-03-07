@@ -11,5 +11,11 @@ namespace WeatherDataWPFApplication {
     /// Interaction logic for App.xaml
     /// </summary>
     public partial class App : Application {
+
+        public static void Start() {
+            WeatherData weather = WeatherApiClient.GetWeatherForecast();
+            
+        }
+
     }
 }

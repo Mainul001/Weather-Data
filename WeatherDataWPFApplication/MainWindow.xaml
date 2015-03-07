@@ -1,14 +1,16 @@
 ﻿<Window x:Class="WeatherDataWPFApplication.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow"
+        Title="আবহাওয়া"
         Height="576.234"
         Width="934.262"
-        Background="#FF48AA4D">
+        Background="#FF48AA4D"
+        ResizeMode="NoResize">
     <Grid>
-        <Label Content="বাংলাদেশ"
-               HorizontalAlignment="Left"
-               Margin="155,32,0,0"
+        <Label x:Name="HeaderLabel"
+               Content="ঢাকার তাপমাত্রা (ডিগ্রি সেলসিয়াস)"
+               HorizontalAlignment="Center"
+               Margin="0, 20, 0, 0"
                VerticalAlignment="Top"
                FontSize="24" />
     </Grid>

@@ -21,5 +21,9 @@ namespace WeatherDataWPFApplication {
         public MainWindow() {
             InitializeComponent();
         }
+
+        public void Start() {
+            
+        }
     }
 }
