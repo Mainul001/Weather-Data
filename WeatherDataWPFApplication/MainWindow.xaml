@@ -62,5 +62,36 @@
                Margin="799,115,0,0"
                VerticalAlignment="Top"
                FontSize="18" />
+        <Label x:Name="MorningTempLabel"
+               Content=""
+               HorizontalAlignment="Left"
+               Margin="320,209,0,0"
+               VerticalAlignment="Top"
+               FontSize="18" />
+        <Label x:Name="LowestTempLabel"
+               Content=""
+               HorizontalAlignment="Left"
+               Margin="805,209,0,0"
+               VerticalAlignment="Top"
+               FontSize="18" />
+        <Label Content=""
+               x:Name="HighestTempLabel"
+               HorizontalAlignment="Left"
+               Margin="666,209,0,0"
+               VerticalAlignment="Top"
+               FontSize="18" />
+        <Label Content=""
+               x:Name="NightTempLabel"
+               HorizontalAlignment="Left"
+               Margin="532,209,0,0"
+               VerticalAlignment="Top"
+               FontSize="18" />
+        <Label Content=""
+               x:Name="NoonTempLabel"
+               HorizontalAlignment="Left"
+               Margin="421,209,0,0"
+               VerticalAlignment="Top"
+               FontSize="18" />
+
     </Grid>
 </Window>
