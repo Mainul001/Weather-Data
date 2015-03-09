@@ -10,8 +10,8 @@ using System.Net;
 namespace WeatherDataWPFApplication {
     class WeatherApiClient {
 
-        public static WeatherData GetWeatherForecast(string weatherApi) {
-            var url = weatherApi;
+        public static WeatherData GetWeatherForecast(string url) {
+
             string content = new WebClient().DownloadString(url);
 
 

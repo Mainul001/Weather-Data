@@ -192,6 +192,56 @@ namespace WeatherDataWPFApplication {
                     break;
             }
 
+            switch (today.Month) {
+                case 1:
+                    DateLabel3.Content = ", জানুয়ারি";
+                    break;
+
+                case 2:
+                    DateLabel3.Content = ", ফেব্রুয়ারি";
+                    break;
+
+                case 3:
+                    DateLabel3.Content = ", মার্চ";
+                    break;
+
+                case 4:
+                    DateLabel3.Content = ", এপ্রিল";
+                    break;
+
+                case 5:
+                    DateLabel3.Content = ", মে";
+                    break;
+
+                case 6:
+                    DateLabel3.Content = ", জুন";
+                    break;
+
+                case 7:
+                    DateLabel3.Content = ", জুলাই";
+                    break;
+
+                case 8:
+                    DateLabel3.Content = ", আগস্ট";
+                    break;
+
+                case 9:
+                    DateLabel3.Content = ", সেপ্টেম্বর";
+                    break;
+
+                case 10:
+                    DateLabel3.Content = ", অক্টোবর";
+                    break;
+
+                case 11:
+                    DateLabel3.Content = ", নভেম্বর";
+                    break;
+
+                case 12:
+                    DateLabel3.Content = ", ডিসেম্বর";
+                    break;
+            }
+
         }
 
     }
